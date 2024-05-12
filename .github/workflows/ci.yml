@@ -6,6 +6,9 @@ on:
     push:
     pull_request:
 
+permissions:
+    issues: write    
+
 jobs:
     ci-job:
         runs-on: ubuntu-latest
