@@ -1,5 +1,8 @@
 name: 'Composite Action Recipe'
 description: 'Greets the user and returns 42.'
+branding:
+  icon: bell
+  color: purple
 inputs:
   who-to-greet:
     description: 'Who to greet'
